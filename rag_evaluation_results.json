@@ -1,0 +1,90 @@
+[
+    {
+        "file": "112_IWETH.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "bug_type": "None",
+        "vulnerability_category": "None"
+    },
+    {
+        "file": "75_Migrations.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "bug_type": "None",
+        "vulnerability_category": "None"
+    },
+    {
+        "file": "AggregatorV3Interface.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "bug_type": "Zero_Day_Logic_Flaw",
+        "vulnerability_category": "Price Manipulation"
+    },
+    {
+        "file": "anyswapv4.sol",
+        "ground_truth_vulnerable": false,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "bug_type": "None",
+        "vulnerability_category": "Safe_No_Vulnerability"
+    },
+    {
+        "file": "Base.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "bug_type": "None",
+        "vulnerability_category": "Safe_No_Vulnerability"
+    },
+    {
+        "file": "BaseIRMLinearKink.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "bug_type": "None",
+        "vulnerability_category": "None"
+    },
+    {
+        "file": "BaseModule.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "bug_type": "Zero_Day_Logic_Flaw",
+        "vulnerability_category": "Reentrancy"
+    },
+    {
+        "file": "Box.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "bug_type": "Zero_Day_Logic_Flaw",
+        "vulnerability_category": "Denial_of_Service"
+    },
+    {
+        "file": "BoxV2.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "bug_type": "None",
+        "vulnerability_category": "None"
+    },
+    {
+        "file": "chainlinkBasedOracle.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "bug_type": "Zero_Day_Logic_Flaw",
+        "vulnerability_category": "Price Manipulation"
+    },
+    {
+        "file": "Constants.sol",
+        "ground_truth_vulnerable": true,
+        "rag_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "bug_type": "Zero_Day_Logic_Flaw",
+        "vulnerability_category": "Interest Rate Manipulation"
+    }
+]

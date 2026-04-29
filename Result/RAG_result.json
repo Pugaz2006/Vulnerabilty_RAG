@@ -1,0 +1,142 @@
+[
+    {
+        "file_tested": "tc_05_vuln_reentrancy.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u274c False Negative (Missed the bug)"
+    },
+    {
+        "file_tested": "tc_15_vuln_reentrancy_agri.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_11_vuln_flash_agri.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_19_vuln_state_agri.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_03_vuln_amm.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u274c False Negative (Missed the bug)"
+    },
+    {
+        "file_tested": "tc_01_vuln_flash.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_20_safe_state_agri.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_07_vuln_access.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_04_safe_amm.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_14_safe_amm_agri.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_12_safe_flash_agri.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_08_safe_access.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u274c False Positive (Hallucination)"
+    },
+    {
+        "file_tested": "tc_17_vuln_access_agri.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_10_safe_state.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u274c False Positive (Hallucination)"
+    },
+    {
+        "file_tested": "tc_09_vuln_state.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_16_safe_reentrancy_agri.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_13_vuln_amm_agri.sol",
+        "expected_vulnerable": true,
+        "ai_predicted_vulnerable": true,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Positive (Correctly found bug)"
+    },
+    {
+        "file_tested": "tc_02_safe_flash.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_18_safe_access_agri.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    },
+    {
+        "file_tested": "tc_06_safe_reentrancy.sol",
+        "expected_vulnerable": false,
+        "ai_predicted_vulnerable": false,
+        "bug_type": "SmartInv_Baseline_Model",
+        "status": "\u2705 True Negative (Correctly verified safe)"
+    }
+]

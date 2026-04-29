@@ -1,0 +1,807 @@
+[
+    {
+        "file": "anyswapv4.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 58
+    },
+    {
+        "file": "IQuoter.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ISwapRouter.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "Root.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": false,
+        "evaluation_result": "True Negative (Correctly identified as safe)",
+        "slither_bugs_found": 0
+    },
+    {
+        "file": "Base.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 12
+    },
+    {
+        "file": "BaseIRM.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 23
+    },
+    {
+        "file": "BaseIRMLinearKink.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 84
+    },
+    {
+        "file": "BaseModule.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 22
+    },
+    {
+        "file": "chainlinkBasedOracle.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "Constants.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "EulDistributorOwner.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "Euler.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 73
+    },
+    {
+        "file": "Events.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "FullMath.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 11
+    },
+    {
+        "file": "Interfaces.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IRiskManager.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ISwapHandler.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ISwapRouter02.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "ISwapRouterV2.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "ISwapRouterV3.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "IUniswapV3SwapCallback.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "MerkleProof.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "MockEACAggregatorProxy.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 5
+    },
+    {
+        "file": "MockStETH.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 6
+    },
+    {
+        "file": "Proxy.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "PToken.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "RPow.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "Storage.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "TickMath.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 23
+    },
+    {
+        "file": "Utils.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "WBTCOracle.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 5
+    },
+    {
+        "file": "WSTETHOracle.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "Migrations.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "IERC20.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IUniswapV2Migrator.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IUniswapV2Router01.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "IUniswapV2Router02.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "IWETH.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "EmptyMockContract.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IAdminRole.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IFethMarket.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IGetFees.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IGetRoyalties.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IOperatorRole.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IOwnable.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IRoyaltyInfo.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ISendValueWithFallbackWithdraw.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ITokenCreator.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IOracle.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ISwapperGeneric.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IAssetManager.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IAuraLocker.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IFeiTimedMinter.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "IGnosisSafe.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IPodAdminGateway.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IRewardsAdmin.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "IRewardsDistributorAdmin.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "MockTribalChief.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "RevertReceiver.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "SafeCast.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "AggregatorV3Interface.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "DateTime.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 21
+    },
+    {
+        "file": "Factory.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 45
+    },
+    {
+        "file": "GNBU.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 24
+    },
+    {
+        "file": "HeadOfLocationMotivation.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 17
+    },
+    {
+        "file": "InfluencerBonusPart.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 24
+    },
+    {
+        "file": "LockStakingLPRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 13
+    },
+    {
+        "file": "LockStakingRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 12
+    },
+    {
+        "file": "LockStakingRewardFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 18
+    },
+    {
+        "file": "LockStakingRewardMinAmountFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 13
+    },
+    {
+        "file": "LockStakingRewardMinAmountFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 21
+    },
+    {
+        "file": "LockStakingRewards.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 15
+    },
+    {
+        "file": "LockStakingRewardSameTokenFixedAPY.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 13
+    },
+    {
+        "file": "LockStakingRewardSameTokenFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 19
+    },
+    {
+        "file": "LPRewards.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 32
+    },
+    {
+        "file": "Migrations.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "NBU.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 17
+    },
+    {
+        "file": "NBU_WBNB.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "NimbusGovernorV1.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 17
+    },
+    {
+        "file": "NimbusInitialAcquisition.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 58
+    },
+    {
+        "file": "NimbusInitialAcquisitionReferral.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 70
+    },
+    {
+        "file": "NimbusInitialAcquisitionReferral_3-0.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 58
+    },
+    {
+        "file": "NimbusReferralProgramLogic.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 40
+    },
+    {
+        "file": "NimbusReferralProgramMarketing.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 46
+    },
+    {
+        "file": "NimbusReferralProgramUsers.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 16
+    },
+    {
+        "file": "NimbusVesting.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "RewardsFactory.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 14
+    },
+    {
+        "file": "Router.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 34
+    },
+    {
+        "file": "StakingLPRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 12
+    },
+    {
+        "file": "StakingRewardMinAmountFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 12
+    },
+    {
+        "file": "StakingRewardsFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 11
+    },
+    {
+        "file": "StakingRewardsSameTokenFixedAPY.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 10
+    },
+    {
+        "file": "Encoding.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 3
+    },
+    {
+        "file": "IMessageRecipient.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IUpdaterManager.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "Merkle.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 9
+    },
+    {
+        "file": "Queue.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 15
+    },
+    {
+        "file": "Version0.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "Box.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "BoxV2.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "FixedPoint.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "IAddressRegistry.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 4
+    },
+    {
+        "file": "IAddressRegistryV2.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 9
+    },
+    {
+        "file": "IFeeReporter.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IFNFTHandler.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ILockManager.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IMetadataHandler.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IOracleDispatch.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IRevest.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IRewardsHandler.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ITokenVault.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "ITokenVaultV2.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "IWETH.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 1
+    },
+    {
+        "file": "Strings.sol",
+        "ground_truth_vulnerable": true,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "True Positive (Caught the bug)",
+        "slither_bugs_found": 2
+    },
+    {
+        "file": "WUSDMaster.sol",
+        "ground_truth_vulnerable": false,
+        "slither_predicted_vulnerable": true,
+        "evaluation_result": "False Positive (Cried Wolf - Safe but flagged)",
+        "slither_bugs_found": 24
+    }
+]

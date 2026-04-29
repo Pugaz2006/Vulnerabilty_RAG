@@ -1,0 +1,807 @@
+[
+    {
+        "file": "IRevest.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity >=0.8.0;\n\ninterface irevest {\n    event fnfttimeloc"
+    },
+    {
+        "file": "112_IWETH.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\ncontract weth is iweth {\n\n     function deposit() external payable "
+    },
+    {
+        "file": "MockStETH.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity ^0.8.0;\n\ncontract teststeth {\n   function test() ext"
+    },
+    {
+        "file": "Router.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface inimbusfactory {\n    event paircreated(address "
+    },
+    {
+        "file": "75_Migrations.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n// @author \n// @include https://ethereum.stackexchange.com/questions"
+    },
+    {
+        "file": "IFeiTimedMinter.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\ninterface ifeitimedminter {\n     // ------"
+    },
+    {
+        "file": "Migrations.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n// @author \n// @include https://ethereum.stackexchange.com/questions"
+    },
+    {
+        "file": "Proxy.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pre-conditions:\n1. msg.sender == creator\n2. msg.sender != creator\n\npost-conditions:\n1. msg.sender =="
+    },
+    {
+        "file": "ISwapRouter.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\npragma solidity >=0.7.5;\npragma abicoder v2;\n\n/// @titl"
+    },
+    {
+        "file": "IRewardsHandler.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.8.0;\n\ncontract rewardshandler {\n\n    struct user"
+    },
+    {
+        "file": "ITokenCreator.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\ncontract tokencreator is itokencreator {\n "
+    },
+    {
+        "file": "Constants.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "this is contract:\n// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nabstract co"
+    },
+    {
+        "file": "EulDistributorOwner.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\ncontract euldistributorowner "
+    },
+    {
+        "file": "IRoyaltyInfo.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice interface for eip-2981: nft"
+    },
+    {
+        "file": "PToken.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\ncontract ptokenvulnerability "
+    },
+    {
+        "file": "ISwapHandler.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\ninterface iswaphandler {\n    "
+    },
+    {
+        "file": "IPodAdminGateway.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-3.0-or-later\npragma solidity ^0.8.0;\n\ninterface ipodadmingateway {\n "
+    },
+    {
+        "file": "IOwnable.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\ninterface iownable {\n   /**\n   * @dev retu"
+    },
+    {
+        "file": "IUniswapV2Router02.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pragma solidity >=0.6.2;\n\nimport './iuniswapv2router02.sol';\n\ninterface iuniswapv2router02 is iunisw"
+    },
+    {
+        "file": "Euler.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nimport \"./base.sol\";\n\n\n/// @n"
+    },
+    {
+        "file": "ITokenVault.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pragma solidity >=0.8.0;\n\ninterface itokenvault {\n\n     function createfnft(\n        uint fnftid,\n  "
+    },
+    {
+        "file": "Interfaces.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\n\ninterface ierc20 {\n    event"
+    },
+    {
+        "file": "chainlinkBasedOracle.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\n// a1. the contract is vulnerable to the following att"
+    },
+    {
+        "file": "BaseModule.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nimport \"./base.sol\";\n\n\nabstra"
+    },
+    {
+        "file": "Factory.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface inimbusfactory {\n    event paircreated(address "
+    },
+    {
+        "file": "IGetFees.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice an interface for communicat"
+    },
+    {
+        "file": "InfluencerBonusPart.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "NimbusInitialAcquisition.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IFethMarket.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice interface for functions the"
+    },
+    {
+        "file": "Encoding.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.6.11;\n\nlibrary encoding {\n     // ============ c"
+    },
+    {
+        "file": "NimbusGovernorV1.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ierc20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "WUSDMaster.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\n/**\n *submitted for verification at bscscan.com on 2021-08-03\n*/\n\n// spdx-license-"
+    },
+    {
+        "file": "StakingRewardMinAmountFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "Version0.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "answer:\n1. the contract is vulnerable to reentrancy attacks.\n2. the contract is vulnerable to intege"
+    },
+    {
+        "file": "Base.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nimport \"./base.sol\";\n\ncontrac"
+    },
+    {
+        "file": "IFeeReporter.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": ""
+    },
+    {
+        "file": "NimbusVesting.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "RevertReceiver.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "1. the contract is vulnerable to the following attacks:\n\na. the contract is vulnerable to the follow"
+    },
+    {
+        "file": "NimbusInitialAcquisitionReferral_3-0.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "NimbusReferralProgramLogic.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IERC20.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pragma solidity >=0.5.0;\n\ninterface ierc20 {\n    event approval(address indexed owner, address index"
+    },
+    {
+        "file": "IOperatorRole.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice interface for operatorrole "
+    },
+    {
+        "file": "MerkleProof.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n// openzeppelin contracts (last updated v4.5.0) (utils/cryptography/"
+    },
+    {
+        "file": "Strings.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "//spdx-license-identifier: unlicensed\n//spdx-license-identifier: unlicensed\n//spdx-license-identifie"
+    },
+    {
+        "file": "IGetRoyalties.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\ncontract igetroyalties {\n    function getr"
+    },
+    {
+        "file": "NBU.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\n// ------------------------------------------------------"
+    },
+    {
+        "file": "FullMath.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit\n\n// from uniswap3 core\n\n// updated to solidity 0.8"
+    },
+    {
+        "file": "ISwapRouterV3.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\npragma solidity >=0.7.5;\npragma abicoder v2;\n\nimport '."
+    },
+    {
+        "file": "AggregatorV3Interface.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.6.0;\n\ninterface aggregatorv3interface {\n\n   func"
+    },
+    {
+        "file": "IAuraLocker.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "// spdx-license-identifier: gpl-3.0-or-later\npragma solidity ^0.8.0;\n\ninterface iauralocker {\n    st"
+    },
+    {
+        "file": "IMessageRecipient.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.6.11;\n\ncontract a {\n    function foo(uint32 _non"
+    },
+    {
+        "file": "TickMath.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "this is contract:\n// spdx-license-identifier: gpl-2.0-or-later\n\n// from uniswap3 core\n\n// updated to"
+    },
+    {
+        "file": "Utils.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\n// a. transferfrom is vulnerable to reentrancy attacks"
+    },
+    {
+        "file": "LockStakingRewardSameTokenFixedAPY.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "ISwapperGeneric.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.6.12;\n\ncontract swapbentobox is ierc20, iswapper"
+    },
+    {
+        "file": "IMetadataHandler.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\ncontract metadatahandler {\n\n    function g"
+    },
+    {
+        "file": "NimbusInitialAcquisitionReferral.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IRiskManager.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nimport \"./storage.sol\";\n\n// t"
+    },
+    {
+        "file": "Merkle.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit or apache-2.0\npragma solidity >=0.6.11;\n\n// work b"
+    },
+    {
+        "file": "LPRewards.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IWETH.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "solidity:\n\n1. the contract is vulnerable to reentrancy attacks.\n2. the contract is vulnerable to dou"
+    },
+    {
+        "file": "MockTribalChief.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// 1. what are the vulnerabilities in the contract?\n// 2. what are the vulnerabilities in the functi"
+    },
+    {
+        "file": "FixedPoint.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity ^0.8.0;\n\nlibrary fixedpoint {\n     // range: [0, 2**"
+    },
+    {
+        "file": "IRewardsDistributorAdmin.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "what are the vulnerabilities in the answers?\n\nwhat are the vulnerabilities in the code?\n\nwhat are th"
+    },
+    {
+        "file": "StakingRewardsFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "NimbusReferralProgramUsers.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "LockStakingRewardSameTokenFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "Events.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "how would an attacker exploit the vulnerabilities?\n\nwhat are some defenses against the vulnerabiliti"
+    },
+    {
+        "file": "LockStakingRewardMinAmountFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IUniswapV2Router01.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "//todo:\n\ninterface iuniswapv2router02 {\n     function factory() external pure returns (address);\n   "
+    },
+    {
+        "file": "IQuoter.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\npragma solidity >=0.7.5;\npragma abicoder v2;\n\n/// @titl"
+    },
+    {
+        "file": "StakingLPRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "BaseIRM.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\nimport \"./basemodule.sol\";\n\na"
+    },
+    {
+        "file": "LockStakingRewardMinAmountFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "WSTETHOracle.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\n\ninterface ichainlinkaggregat"
+    },
+    {
+        "file": "LockStakingRewards.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "ISendValueWithFallbackWithdraw.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice attempt to send eth and if "
+    },
+    {
+        "file": "LockStakingLPRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "MockEACAggregatorProxy.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "aggregatorproxy is vulnerable to the following attacks:\n\n1.  attacker can set the price of a round t"
+    },
+    {
+        "file": "IOracleDispatch.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity >=0.8.0;\n\ncontract oracledispatch {\n\n     // attemp"
+    },
+    {
+        "file": "IFNFTHandler.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity >=0.8.0;\n\n\ncontract ifnfthandler {\n\n    function mi"
+    },
+    {
+        "file": "Root.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit\n// pragma solidity ^0.8.17;\n// pragma experimental"
+    },
+    {
+        "file": "NBU_WBNB.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "what are the resources needed by the contract?\n\nwhat are the inputs/outputs/state needed by the cont"
+    },
+    {
+        "file": "IUniswapV2Migrator.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "answer: \\begin{itemize}\n\\item the contract is vulnerable to [reentrancy](https://en.wikipedia.org/wi"
+    },
+    {
+        "file": "Box.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8;\n\ncontract box {\n     uint256 private value;\n\n"
+    },
+    {
+        "file": "IUpdaterManager.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >=0.6.11;\n\ncontract updatermanager {\n     function s"
+    },
+    {
+        "file": "WBTCOracle.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\n\npragma solidity ^0.8.0;\n\ninterface ichainlinkaggregato"
+    },
+    {
+        "file": "HeadOfLocationMotivation.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ncontract ownable {\n    address public owner;\n    address "
+    },
+    {
+        "file": "NimbusReferralProgramMarketing.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity >=0.8.0 <=0.8.13;\n\ninterface ibep20 {\n    function totalsupply() e"
+    },
+    {
+        "file": "SafeCast.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit\n// openzeppelin contracts (last updated v4.7.0) (u"
+    },
+    {
+        "file": "GNBU.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\n// ------------------------------------------------------"
+    },
+    {
+        "file": "IOracle.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\npragma solidity >= 0.6.12;\n\ninterface ioracle {\n     /// @notice get"
+    },
+    {
+        "file": "RewardsFactory.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "StakingRewardsSameTokenFixedAPY.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IAddressRegistryV2.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pragma solidity >=0.8.0;\n\nimport \"./iaddressregistry.sol\";\n\n/**\n * @title provider interface for rev"
+    },
+    {
+        "file": "IAdminRole.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\n/**\n * @notice interface for adminrole whi"
+    },
+    {
+        "file": "RPow.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8.0;\n\nlibrary rpow {\n     function rpow(uint x, "
+    },
+    {
+        "file": "BoxV2.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity ^0.8;\n\ncontract boxv2 {\n     uint256 private value;"
+    },
+    {
+        "file": "EmptyMockContract.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pre-conditions:\n- the contract is deployed\n- the contract is instantiated\n- the contract is instanti"
+    },
+    {
+        "file": "ILockManager.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "pragma solidity >=0.8.0;\n\nimport \"./irevest.sol\";\n\ninterface ilockmanager {\n\n    function createlock"
+    },
+    {
+        "file": "LockStakingRewardFixedAPYReferral.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "LockStakingRewardFixedAPY.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\npragma solidity =0.8.0;\n\ninterface ibep20 {\n    function totalsupply() external vi"
+    },
+    {
+        "file": "IGnosisSafe.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "// spdx-license-identifier: gpl-3.0-or-later\npragma solidity ^0.8.0;\n\ninterface ignosissafe {\n    en"
+    },
+    {
+        "file": "ITokenVaultV2.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: mit\n\npragma solidity >=0.8.0;\n\nimport \"./itokenvault.sol\";\n\ninterface it"
+    },
+    {
+        "file": "ISwapRouter02.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": ""
+    },
+    {
+        "file": "ISwapRouterV2.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\npragma solidity >=0.6.2;\n\ninterface iuniswapv2router01 "
+    },
+    {
+        "file": "Queue.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit or apache-2.0\npragma solidity >=0.6.11;\n\n/**\n * @t"
+    },
+    {
+        "file": "BaseIRMLinearKink.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "answer:\nbaseirm is vulnerable to the following attacks:\n1. the contract is vulnerable to the followi"
+    },
+    {
+        "file": "IAssetManager.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-3.0-or-later\n// this program is free software: you can redistribute "
+    },
+    {
+        "file": "IRewardsAdmin.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "what are the vulnerabilities in the contract?\n\nwhat are the vulnerabilities in the function?\n\nwhat d"
+    },
+    {
+        "file": "anyswapv4.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "True Negative",
+        "raw_output": "this is contract:\n\n// spdx-license-identifier: gpl-3.0-or-later\n\npragma solidity >=0.8.0;\n\ninterface"
+    },
+    {
+        "file": "Storage.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "what are the non-vulnerabilities in the questions?\n\nwhat are the vulnerabilities in the code?\n\nwhat "
+    },
+    {
+        "file": "IAddressRegistry.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": false,
+        "evaluation_result": "False Negative",
+        "raw_output": "title:\naddress is not safe\n\nwhat are the vulnerabilities in the contract?\n\naddress is not safe\n\nwhat"
+    },
+    {
+        "file": "IUniswapV3SwapCallback.sol",
+        "ground_truth_vulnerable": true,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "True Positive",
+        "raw_output": "// spdx-license-identifier: gpl-2.0-or-later\npragma solidity >=0.5.0;\n\n/// @title callback for iunis"
+    },
+    {
+        "file": "DateTime.sol",
+        "ground_truth_vulnerable": false,
+        "smartinv_predicted_vulnerable": true,
+        "evaluation_result": "False Positive",
+        "raw_output": "this is contract:\n// spdx-license-identifier: mit\npragma solidity ^0.8.0;\n\n// ----------------------"
+    }
+]
