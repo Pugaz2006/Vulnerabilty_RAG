@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 class VectorMemoryBuilder:
     def __init__(self):
         # print("[*] Loading local ML embedding model (st-codesearch-distilroberta-base)...")
-        # This  a highly efficient, open-source model that runs locally.
+        # This is a highly efficient, open-source model that runs locally.
         # It converts text into a 384-dimensional mathematical vector.
         # self.encoder = SentenceTransformer('all-MiniLM-L6-v2')
         # This model is specifically trained on source code and programming languages!
